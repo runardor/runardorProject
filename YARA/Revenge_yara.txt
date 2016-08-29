@@ -5,7 +5,7 @@ rule Revenge
         family = "Revenge"
 
     strings:
-		$a1 = "Revenge-" wide
+	$a1 = "Revenge-" wide
         $a2 = "RV_MUTEX-" wide
         $a3 = "[InternetShortcut]{0}URL={1}{0}" wide
 
