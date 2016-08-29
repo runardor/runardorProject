@@ -5,10 +5,10 @@ rule LeGend_RAT
         family = "LeGend"
 
     strings:
-		$a1 = "LeGend.Resources" wide
+	$a1 = "LeGend.Resources" wide
         $a2 = "CurrentWallpaper.Bmp" wide
         $a3 = "Select * From AntiVirusProduct" wide
-		$a4 = "Regoff" wide
+	$a4 = "Regoff" wide
 
     condition:
         all of ($a*)
